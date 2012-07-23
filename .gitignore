@@ -1,1 +1,5 @@
 leda_test
+*.ele
+*.node
+leda_random
+leda_rational
