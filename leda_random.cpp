@@ -39,6 +39,7 @@ int main(int argc, char** argv) {
   rat_point p;
   int i = 1;
   forall(p,L) {
+	// Node format: http://www.cs.cmu.edu/~quake/triangle.node.html
 	cout << i++ << " " << p.xcoord().numerator() << " " << p.ycoord().numerator()
 		 << endl;
   }

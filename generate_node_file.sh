@@ -4,6 +4,7 @@ if [ $# -lt 2 ]; then
 	echo "       Where n is the number of points to generate"
 	echo "       and the points have coordinates in [-maxc,maxc]"
 else
+	# node format: http://www.cs.cmu.edu/~quake/triangle.node.html
 	echo $1 2 0 0
 	./leda_random $1 $2
 fi

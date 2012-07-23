@@ -26,6 +26,8 @@ def isComment(s):
     return s[0] == '#'
     
 # read in nodes
+# for documentation on node format:
+# http://www.cs.cmu.edu/~quake/triangle.node.html
 nodes={}
 with open("random.1.node") as node_file:
     first = True
@@ -39,6 +41,8 @@ with open("random.1.node") as node_file:
             nodes[parts[0]] = parts[1] + " " + parts[2]
 
 # read in triangles
+# for documentation on ele format:
+# http://www.cs.cmu.edu/~quake/triangle.ele.html
 triangles={}
 with open("random.1.ele") as triangle_file:
     first = True
