@@ -4,3 +4,5 @@ leda_test
 leda_random
 leda_rational
 leda_locate_points
+points.txt
+segments.txt
