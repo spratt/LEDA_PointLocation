@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
   int i = 1;
   forall(p,L) {
 	// Node format: http://www.cs.cmu.edu/~quake/triangle.node.html
-	cout << i++ << " " << p.xcoord().numerator() << " " << p.ycoord().numerator()
+	cout << i++ << " " << p.xcoord() << " " << p.ycoord()
 		 << endl;
   }
   return 0;
