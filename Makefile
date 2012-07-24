@@ -41,7 +41,7 @@ CXXFLAGS = 	-g -std=c++98 -pedantic-errors -Wall -Werror \
 # Targets
 ###############################################################################
 
-TARGETS = leda_test leda_rational leda_random
+TARGETS = leda_test leda_rational leda_random leda_locate_points
 
 all: $(TARGETS)
 

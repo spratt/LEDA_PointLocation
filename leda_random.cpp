@@ -28,8 +28,8 @@ int main(int argc, char** argv) {
   if(argc < 3) {
 	cout << "Usage:" << endl
 		 << tab << argv[0] << " n maxc" << endl
-		 << "Which will generate n points with coordinates between [-maxc..maxc]"
-		 << endl;
+		 << tab << "Which will generate n points" << endl
+		 << tab << "with coordinates between [-maxc..maxc]" << endl;
 	return 1;
   }
   int n = atoi(argv[1]);

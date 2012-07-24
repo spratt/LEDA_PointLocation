@@ -3,3 +3,4 @@ leda_test
 *.node
 leda_random
 leda_rational
+leda_locate_points
